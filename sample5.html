@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .text-box{
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+
+            padding:20px 40px;
+
+        }
+        .img-box{
+            width:50%;
+            padding:20px 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width:250px;
+            height:30px;
+            padding:20px 40px;
+            border-radius: 50px;
+            background-color: orange;
+            border:0;
+        }
+
+        .btn:hover{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            width:250px;
+            height:30px;
+            padding:20px 40px;
+            border-radius: 50px;
+            background-color: rgb(246, 197, 106);
+            border:0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="text-box">
+            <h4>Category: shoe</h4>
+          <h1>Air Jordan MX</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti nam in, officia delectus animi eos non et earum error odit at natus ut minima? Itaque dolores sequi consequatur consequuntur!
+          </p>
+          <button class="btn"> Details </button>
+        </div>
+        <div class="img-box">
+           <img src="img/shoe.png" class="main-img">
+        </div>
+    </div>
+</body>
+</html>
